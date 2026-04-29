@@ -1,0 +1,17 @@
+h1{
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    font-stretch: ;
+    font-variant:small-caps;
+}
+
+p{
+    line-height: 20px;
+    letter-spacing: px;
+    text-transform:capitalize;
+    font-stretch:condensed;
+}
+body{
+    background-color: bisque;
+}
