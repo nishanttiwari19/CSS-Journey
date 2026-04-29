@@ -1,0 +1,13 @@
+h1{
+    color:rgb(106, 20, 89);
+    font-family: 'Courier New', Courier, monospace;
+}
+ol{
+    color: peru;
+}
+h3{
+    color: hsl(201, 90%, 55%);
+}
+body{
+    background-color: blanchedalmond;
+}
