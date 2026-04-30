@@ -1,0 +1,28 @@
+h1{
+    background-color: aqua;
+    border-width: 5px;
+    border-style: solid;
+    padding: 3px;
+    border-color: brown;
+}
+ul{
+    background-color: blueviolet;
+}
+p{
+    border: 5px;
+    border-style: solid;
+    padding: 3px;
+    background-color: aquamarine;
+}
+thead{
+    background-color: aqua;
+    width: 60px;
+}
+th{
+    background-color: palevioletred;
+    width: 100vw;
+    height: 50px;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+}
