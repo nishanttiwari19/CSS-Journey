@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Professional Profile</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      color: #e2e8f0;
+    }
+
+    h1 {
+      margin-bottom: 40px;
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+      width: 100%;
+      max-width: 1000px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      padding: 25px;
+      border-radius: 18px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+      transition: all 0.3s ease;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+    }
+
+    .card::before {
+      content: "";
+      position: absolute;
+      width: 150%;
+      height: 150%;
+      background: linear-gradient(45deg, transparent, rgba(56,189,248,0.2), transparent);
+      top: -50%;
+      left: -50%;
+      transform: rotate(25deg);
+      transition: 0.5s;
+    }
+
+    .card:hover::before {
+      top: 100%;
+      left: 100%;
+    }
+
+    h2 {
+      font-size: 22px;
+      margin-bottom: 8px;
+    }
+
+    .role {
+      color: #38bdf8;
+      font-weight: 500;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #cbd5f5;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>Professional Profile</h1>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>Nishant Tiwari</h2>
+      <div class="role">Software Developer</div>
+      <p>
+        Software engineers apply engineering principles to design, develop, test,
+        and maintain software systems ranging from applications to operating systems.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Shivi Mishra</h2>
+      <div class="role">Nurse</div>
+      <p>
+        Nurses are essential healthcare professionals who blend scientific knowledge
+        with compassionate care to protect, promote, and optimize health.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Priyal Mishra</h2>
+      <div class="role">Makeup Artist</div>
+      <p>
+        Makeup artists enhance natural beauty using creative techniques,
+        helping clients look and feel confident for any occasion.
+      </p>
+    </div>
+
+  </div>
+
+</body>
+</html>
