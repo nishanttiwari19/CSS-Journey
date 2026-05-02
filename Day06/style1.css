@@ -1,0 +1,28 @@
+.container{
+    background-color: azure;
+}
+.box{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+.b1{
+    background-color: red;
+}
+
+.b2{
+    background-color: green;
+    position: relative;
+    left: 5px;
+    top: 8px;
+    z-index: 1;
+}
+.b3{
+    background-color: yellow;
+    position: relative;
+    z-index: 5;
+}
+.b4{
+    background-color: pink;
+}
