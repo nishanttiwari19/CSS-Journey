@@ -1,3 +1,17 @@
+*{
+    margin: 0%;
+}
+h1{
+    text-align: center;
+    position:fixed;
+    top: 0px;
+    background-color: bisque;
+    height: 40px;
+    width: 100vw;
+}
+.p1{
+    margin-top: 40px;
+}
 .img3{
     height: 300px;
     width: auto;
