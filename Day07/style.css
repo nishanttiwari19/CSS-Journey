@@ -10,6 +10,19 @@ body{
     border-color: white;
 }
 
+.image{
+    position: relative;
+}
+
+.off{
+    font-size: 30px;
+    color: white;
+    background-color: rgba(218, 13, 16 , 0.4);
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
 .card{
     display: inline-block;
     margin-left: 10px;
@@ -28,6 +41,7 @@ body{
      width: auto;
      border-radius: 20px;
 }
+
 
 .restaurent_name{
     font-size: 20px;
