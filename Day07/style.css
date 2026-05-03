@@ -1,12 +1,22 @@
 *{
     margin: 0;
 }
+body{
+    background-color: rgb(253, 243, 243);
+}
+
+.card:hover{
+    background-color: white;
+    border-color: white;
+}
 
 .card{
     display: inline-block;
     margin-left: 10px;
     margin-top: 10px;
     cursor: pointer;
+    border: 10px solid rgb(253, 243, 243);
+    border-radius: 20px;
 }
 
 .Box{
@@ -48,4 +58,13 @@
 .distance{
     position: absolute;
     right: 5px;
+}
+.foodinfo, .add_name{
+    font-size: 20px;
+    color: rgb(88, 88, 88);
+}
+
+.distance{
+    font-weight: bold;
+    font-size: 10px;
 }
