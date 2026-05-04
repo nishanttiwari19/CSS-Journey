@@ -33,6 +33,39 @@ body{
     border-radius: 20px;
 }
 
+.first{
+    margin-left: 200px;
+}
+
+.brand{
+    color: rgb(216, 5, 5);
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.searching{
+    height: 30px;
+    width: 400px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 13px;
+}
+
+button{
+    height: 50px;
+    width: 80px;
+    position: relative;
+    bottom: 10px;
+    font-size: 15px;
+    margin-right: 50px;
+    background-color: white;
+    border: none;
+    color: rgb(101, 97, 97);
+}
+.head{
+    background-color: white;
+}
 .Box{
     display: inline-block;
 }
@@ -42,7 +75,6 @@ body{
      width: auto;
      border-radius: 20px;
 }
-
 
 .restaurent_name{
     font-size: 20px;
