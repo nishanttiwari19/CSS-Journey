@@ -35,6 +35,39 @@ body{
 
 .first{
     margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+.second{
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+.img3{
+    height: 70px;
+    width: 70px;
+}
+.dine, .Nighting, .delivary{
+    position: relative;
+    bottom: 22px;
+    left: 5px;
+    font-size: 20px;
+    color: rgb(98, 93, 93);
+}
+
+.dining{
+    margin-left: 200px;
+}
+
+.delivery{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.third{
+    height: 1000px;
+    background-color: rgb(88, 86, 86);
 }
 
 .brand{
