@@ -30,13 +30,17 @@
 
 .box1{
     background-color: yellow;
+     flex-grow: 0;
 }
 .box2{
     background-color: purple;
+    flex-grow:1 ;
 }
 .box3{
     background-color: chocolate;
+    flex-grow: 0;
 }
 .box4{
     background-color: green;
+     flex-grow: 0;
 }
