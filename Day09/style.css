@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: burlywood;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+}
+
+.box1{
+    background-color: red;
+    align-self: flex-start;
+}
+
+.box2{
+    background-color: purple;
+    /*flex-grow: 1;*/
+}
+
+.box3{
+    background-color: yellow;
+    /*flex-basis: 500px;*/
+    align-self: end;
+}
+
+.box4{
+    background-color: brown;
+}
+
+@media (max-width:400px){
+    .container{
+        background-color: blueviolet;
+    }
+
+    .box{
+        background-color: darkorange;
+    }
+}
