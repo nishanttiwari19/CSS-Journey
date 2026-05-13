@@ -32,6 +32,7 @@ h1{
 
 .searching{
     width: 400px;
+    max-width: 60%;
     font-size: 1rem;
     padding: .5rem;
     border-radius: 5px;
@@ -48,4 +49,54 @@ h1{
 
 button{
     cursor: pointer;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images2.jpeg);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.hero >h2{
+    color: black;
+    font-size: 2rem;
+}
+
+.hero >button {
+    background-color: rgb(215, 46, 46);
+    color: white;
+    font-size: 2rem;
+    margin-top: 1rem;
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+.mover{
+    text-align: center;
+    padding: 1rem;
+} 
+
+.mover > h2 {
+    font-size: 3rem;
+}
+
+.images{
+    height: 400px;
+}
+
+.movie{
+    display: flex;
+}
+
+.card{
+    border: .5rem solid rgb(208,199,199);
+    background-color: rgb(208,199,199);
+    text-align: center;
+}
+.card > h3{
+    font-size: 1rem ;
 }
