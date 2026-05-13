@@ -6,10 +6,46 @@
 .logo{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(214, 69, 69) ;
-    padding: 1rem;
+    background-color: rgb(215, 46, 46) ;
+    padding: 2rem;
 }
 
 h1{
     color: white;
+}
+
+.right button{
+    margin-left: 0.8rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color:rgb(215, 46, 46) ;
+    border: none;
+    padding-top: .2rem;
+    cursor: pointer;
+}
+.search{
+    padding: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(185, 177, 177);
+}
+
+.searching{
+    width: 400px;
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+.search >button {
+    margin-left: .5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: rgb(215, 46, 46);
+    color: white;
+    padding: 0.5rem;
+}
+
+button{
+    cursor: pointer;
 }
