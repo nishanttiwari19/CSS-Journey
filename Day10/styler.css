@@ -113,6 +113,10 @@ button{
     max-width: 80%;
 }
 
+.images{
+    border-radius: 10px;
+}
+
 @media (max-width:650px){
     .logo{
         flex-direction: column;
